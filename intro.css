@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Sacramento');
+/*::-webkit-scrollbar { 
+    display: none; 
+}*/
+p {
+  text-indent: 1.5em;
+}
+div {
+  margin: 0;
+  padding: 0;
+}
+/*
+html,body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: show;
+}
+#page {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: -17px;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}*/
+#render {
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#header {
+  background-image: url("http://i.imgur.com/PS1RaYF.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+#header > img {
+  box-shadow: -5px 5px 10px black;
+  border: 3px solid white;
+  width: 200px;
+}
+#header > *:not(h2) {
+  margin: 5px auto;
+}
+#body > div:not(#works), #header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+  min-height: 100vh;
+}
+#body > div > * {
+  max-width: 1024px;
+}
+#who > h1 {
+  text-align: center;
+  font-size: 4em;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  #who > h1:nth-child(1) {
+    transform: translateX(-4em);
+  }
+  #who > h1:nth-child(2) {
+    transform: translateX(-3em);
+  }
+}
+.novel {
+  font-family: 'Sacramento', cursive;
+  font-size: 4em;
+}
+#noli {
+  background-image: url("http://i.imgur.com/o3Of7zb.jpg");
+  color: white;
+}
+#fili {
+  background-image: url("http://i.imgur.com/B0Co8NJ.jpg");
+  color: white;
+}
+#noli,#fili {
+  background-position: center;
+  background-size: cover;
+}
+#noli > p:last-child, #fili > p:last-child {
+  margin-bottom: 100px;
+}
+#works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 0 10%;
+  min-height: 100vh;
+}
+#footer {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+.temp-padd {
+  padding-right: 17px;
+}
