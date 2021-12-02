@@ -23,7 +23,7 @@ nav .link {
 
 nav .link a {
   text-decoration: none;
-  color: white;
+  color: red;
 }
 
 nav a:hover {
