@@ -100,6 +100,21 @@ html,body {
   padding: 0 10%;
   min-height: 100vh;
 }
+table {
+  font-family: arial, sans-serif;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+td, th {
+  border-style: dotted;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(235, 235, 235);
+}
 #footer {
   text-align: center;
 }
