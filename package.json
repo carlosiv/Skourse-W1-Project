@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "name": "skourse-w1-project",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/cvelascoiv/Skourse-W1-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cvelascoiv/Skourse-W1-Project/issues"
+  },
+  "homepage": "https://github.com/cvelascoiv/Skourse-W1-Project#readme"
+}
